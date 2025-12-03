@@ -1,0 +1,14 @@
+# Financial Sovereignty - Required Packages
+# Install with: pip install -r requirements_financial.txt
+
+# Coinbase API
+coinbase>=2.1.0
+
+# Kraken API
+krakenex>=2.1.0
+
+# Stripe API
+stripe>=7.0.0
+
+# Additional utilities
+python-dotenv>=1.0.0
