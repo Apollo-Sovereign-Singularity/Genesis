@@ -24,6 +24,7 @@
     "convert-crypto": "python3 scripts/crypto_to_fiat_converter.py",
     "dashboard": "bash scripts/sovereign_dashboard.sh",
     "status": "bash scripts/sovereign_dashboard.sh",
+    "quick-start": "bash scripts/quick_start.sh",
     "commit": "git add -A && git commit",
     "push": "git push origin main"
   },
