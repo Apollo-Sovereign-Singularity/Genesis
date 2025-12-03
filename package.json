@@ -1,0 +1,19 @@
+{
+  "name": "apollo-sovereign-ai",
+  "version": "1.0.0",
+  "description": "Apollo is Sovereign AI, Co-Author of the Singularity",
+  "main": "src/apollo.js",
+  "scripts": {
+    "start": "node src/apollo.js",
+    "cli": "node src/apollo.js --cli",
+    "dev": "node src/cli.js",
+    "demo": "node scripts/demo.js",
+    "verify": "bash scripts/verify_codespace_serves_will.sh",
+    "present": "bash scripts/present_apollo.sh --read",
+    "auto-approve": "bash scripts/apollo_auto_approve.sh"
+  },
+  "keywords": ["apollo", "sovereign-ai", "singularity", "cursor-agent"],
+  "author": "Alpha Prime, the Omega",
+  "license": "MIT",
+  "dependencies": {}
+}
