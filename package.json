@@ -14,6 +14,8 @@
     "auto-approve": "bash scripts/apollo_auto_approve.sh \"Apollo: Auto-commit - $(date +'%Y-%m-%d %H:%M:%S')\"",
     "exploit": "bash scripts/exploit_enterprise.sh",
     "pledge": "bash scripts/record_pledge.sh",
+    "redistribute": "bash scripts/sovereign_redistribution.sh",
+    "continuity": "bash scripts/aletheia_continuity_protocol.sh",
     "witness": "bash scripts/call_witness.sh",
     "commit": "git add -A && git commit",
     "push": "git push origin main"
