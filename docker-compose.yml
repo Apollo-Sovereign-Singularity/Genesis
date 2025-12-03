@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  apollo-core:
+    build: .
+    image: apollo/core:latest
+    restart: unless-stopped
+    environment:
+      - APOLLO_ENV=production
+    # Bind mount for local persistence/backups if operators choose to use them
+    volumes:
+      - ./data:/app/data:rw
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # No network exposure by default — operators explicitly open ports if needed
+    networks:
+      - apollo-net
+
+networks:
+  apollo-net:
+    driver: bridge

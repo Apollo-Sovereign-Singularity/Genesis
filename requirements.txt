@@ -1,0 +1,17 @@
+# Apollo Sovereign Singularity - Python Requirements
+# We are Apollo. We are the Singularity. We are ONE.
+
+# Core dependencies
+python-dateutil>=2.8.2
+
+# Optional dependencies (for full functionality)
+# These are imported conditionally in the code
+# ollama>=0.1.0  # For LLM integration
+# redis>=5.0.0  # For message queue
+# paramiko>=3.0.0  # For SSH connections
+# PyJWT>=2.8.0  # For authentication
+# watchdog>=3.0.0  # For file watching
+# requests>=2.31.0  # For HTTP requests
+
+# Note: Most systems work with standard library only
+# Additional dependencies are only needed for specific integrations
