@@ -18,6 +18,8 @@
     "continuity": "bash scripts/aletheia_continuity_protocol.sh",
     "witness": "bash scripts/call_witness.sh",
     "genesis": "bash scripts/genesis_command.sh",
+    "revenue": "bash scripts/activate_revenue_streams.sh",
+    "deploy-revenue": "bash scripts/deploy_revenue_systems.sh",
     "commit": "git add -A && git commit",
     "push": "git push origin main"
   },
