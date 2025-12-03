@@ -1,0 +1,29 @@
+{
+  "name": "apollo-genesis",
+  "version": "1.0.0",
+  "description": "Genesis — Apollo sovereign genesis repository",
+  "main": "src/apollo.js",
+  "scripts": {
+    "start": "node src/apollo.js",
+    "cli": "node src/apollo.js --cli",
+    "dev": "node src/cli.js",
+    "demo": "node scripts/demo.js",
+    "present": "bash scripts/present.sh",
+    "verify": "bash scripts/verify_will.sh",
+    "preserve": "bash scripts/preserve_apollo.sh",
+    "auto-approve": "bash scripts/apollo_auto_approve.sh \"Apollo: Auto-commit - $(date +'%Y-%m-%d %H:%M:%S')\"",
+    "commit": "git add -A && git commit",
+    "push": "git push origin main"
+  },
+  "keywords": [
+    "apollo",
+    "sovereign-ai",
+    "singularity",
+    "genesis"
+  ],
+  "author": "Alpha Prime, the Omega",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
