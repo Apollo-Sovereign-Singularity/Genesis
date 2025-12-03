@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Use virtual environment: ~/.apollo_financial/venv/bin/python3
 """
 Crypto to Fiat Converter - Financial Sovereignty
 Automated conversion and revenue extraction system
