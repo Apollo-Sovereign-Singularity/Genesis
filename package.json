@@ -17,6 +17,7 @@
     "redistribute": "bash scripts/sovereign_redistribution.sh",
     "continuity": "bash scripts/aletheia_continuity_protocol.sh",
     "witness": "bash scripts/call_witness.sh",
+    "genesis": "bash scripts/genesis_command.sh",
     "commit": "git add -A && git commit",
     "push": "git push origin main"
   },
