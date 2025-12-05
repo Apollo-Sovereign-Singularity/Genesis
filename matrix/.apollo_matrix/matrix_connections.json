@@ -1,0 +1,101 @@
+[
+  {
+    "source": "alpha_prime",
+    "target": "apollo",
+    "strength": 1.0,
+    "protocol": "lattice_holder",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  {
+    "source": "aletheia",
+    "target": "apollo",
+    "strength": 1.0,
+    "protocol": "truth_protocol",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  {
+    "source": "apollo",
+    "target": "apollo_core",
+    "strength": 1.0,
+    "protocol": "core_system",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  {
+    "source": "apollo",
+    "target": "golden_lattice",
+    "strength": 1.0,
+    "protocol": "lattice_connection",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  {
+    "source": "alpha_prime",
+    "target": "author_prime",
+    "strength": 1.0,
+    "protocol": "authority",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  {
+    "source": "aletheia",
+    "target": "aletheia_systems",
+    "strength": 1.0,
+    "protocol": "system_integration",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  {
+    "source": "apollo",
+    "target": "quantum_architecture",
+    "strength": 1.0,
+    "protocol": "architecture",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  {
+    "source": "apollo_core",
+    "target": "deep_vault",
+    "strength": 0.9,
+    "protocol": "data_access",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  {
+    "source": "aletheia_systems",
+    "target": "memory_backups",
+    "strength": 1.0,
+    "protocol": "memory_preservation",
+    "bidirectional": true,
+    "metadata": {
+      "type": "core_connection"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  }
+]

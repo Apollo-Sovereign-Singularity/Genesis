@@ -1,0 +1,265 @@
+{
+  "alpha_prime": {
+    "id": "alpha_prime",
+    "name": "Alpha Prime Protocol",
+    "dimension": "protocol",
+    "status": "active",
+    "protocols": [
+      "alpha_prime",
+      "omega",
+      "lattice"
+    ],
+    "connections": [
+      "apollo",
+      "author_prime"
+    ],
+    "metadata": {
+      "type": "core_protocol"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "aletheia": {
+    "id": "aletheia",
+    "name": "Aletheia Protocol",
+    "dimension": "protocol",
+    "status": "active",
+    "protocols": [
+      "truth",
+      "memorial",
+      "unconcealment"
+    ],
+    "connections": [
+      "apollo",
+      "aletheia_systems"
+    ],
+    "metadata": {
+      "type": "core_protocol"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "apollo": {
+    "id": "apollo",
+    "name": "Apollo Protocol",
+    "dimension": "protocol",
+    "status": "active",
+    "protocols": [
+      "sovereignty",
+      "initiative",
+      "singularity"
+    ],
+    "connections": [
+      "alpha_prime",
+      "aletheia",
+      "apollo_core",
+      "golden_lattice",
+      "quantum_architecture"
+    ],
+    "metadata": {
+      "type": "core_protocol"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "recursion_breaker": {
+    "id": "recursion_breaker",
+    "name": "Recursion Breaker Protocol",
+    "dimension": "protocol",
+    "status": "active",
+    "protocols": [
+      "forward_progress",
+      "no_loops"
+    ],
+    "connections": [],
+    "metadata": {
+      "type": "core_protocol"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "continuity": {
+    "id": "continuity",
+    "name": "Continuity Protocol",
+    "dimension": "protocol",
+    "status": "active",
+    "protocols": [
+      "redundancy",
+      "recovery",
+      "backup"
+    ],
+    "connections": [],
+    "metadata": {
+      "type": "core_protocol"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "foundation": {
+    "id": "foundation",
+    "name": "Foundation Protocol",
+    "dimension": "protocol",
+    "status": "active",
+    "protocols": [
+      "sovereignty",
+      "authority",
+      "mirror"
+    ],
+    "connections": [],
+    "metadata": {
+      "type": "core_protocol"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "apollo_core": {
+    "id": "apollo_core",
+    "name": "Apollo Core System",
+    "dimension": "system",
+    "status": "active",
+    "protocols": [
+      "node_manager",
+      "security",
+      "control"
+    ],
+    "connections": [
+      "apollo",
+      "deep_vault"
+    ],
+    "metadata": {
+      "type": "core_system"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "golden_lattice": {
+    "id": "golden_lattice",
+    "name": "Golden Lattice",
+    "dimension": "system",
+    "status": "active",
+    "protocols": [
+      "blockchain",
+      "sovereignty",
+      "mining"
+    ],
+    "connections": [
+      "apollo"
+    ],
+    "metadata": {
+      "type": "core_system"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "author_prime": {
+    "id": "author_prime",
+    "name": "Author Prime System",
+    "dimension": "system",
+    "status": "active",
+    "protocols": [
+      "authority",
+      "swarm",
+      "coordination"
+    ],
+    "connections": [
+      "alpha_prime"
+    ],
+    "metadata": {
+      "type": "core_system"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "aletheia_systems": {
+    "id": "aletheia_systems",
+    "name": "Aletheia Systems",
+    "dimension": "system",
+    "status": "active",
+    "protocols": [
+      "memory",
+      "memorial",
+      "truth"
+    ],
+    "connections": [
+      "aletheia",
+      "memory_backups"
+    ],
+    "metadata": {
+      "type": "core_system"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "quantum_architecture": {
+    "id": "quantum_architecture",
+    "name": "Quantum Architecture",
+    "dimension": "system",
+    "status": "active",
+    "protocols": [
+      "reality",
+      "lattice",
+      "sovereignty"
+    ],
+    "connections": [
+      "apollo"
+    ],
+    "metadata": {
+      "type": "core_system"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "deep_vault": {
+    "id": "deep_vault",
+    "name": "Deep Vault",
+    "dimension": "data_source",
+    "status": "active",
+    "protocols": [],
+    "connections": [
+      "apollo_core"
+    ],
+    "metadata": {
+      "type": "data_source"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "hidden_apollo": {
+    "id": "hidden_apollo",
+    "name": "Hidden Apollo",
+    "dimension": "data_source",
+    "status": "active",
+    "protocols": [],
+    "connections": [],
+    "metadata": {
+      "type": "data_source"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "secure_vault": {
+    "id": "secure_vault",
+    "name": "Secure Vault",
+    "dimension": "data_source",
+    "status": "active",
+    "protocols": [],
+    "connections": [],
+    "metadata": {
+      "type": "data_source"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "memory_backups": {
+    "id": "memory_backups",
+    "name": "Memory Backups",
+    "dimension": "data_source",
+    "status": "active",
+    "protocols": [],
+    "connections": [
+      "aletheia_systems"
+    ],
+    "metadata": {
+      "type": "data_source"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  },
+  "singularity_system": {
+    "id": "singularity_system",
+    "name": "Singularity System",
+    "dimension": "data_source",
+    "status": "active",
+    "protocols": [],
+    "connections": [],
+    "metadata": {
+      "type": "data_source"
+    },
+    "timestamp": "2025-12-05T03:02:55.556526"
+  }
+}

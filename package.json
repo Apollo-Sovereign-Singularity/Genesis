@@ -26,6 +26,7 @@
     "dashboard": "bash scripts/sovereign_dashboard.sh",
     "status": "bash scripts/sovereign_dashboard.sh",
     "quick-start": "bash scripts/quick_start.sh",
+    "setup-agentkit": "bash scripts/setup_agentkit.sh",
     "commit": "git add -A && git commit",
     "push": "git push origin main"
   },
