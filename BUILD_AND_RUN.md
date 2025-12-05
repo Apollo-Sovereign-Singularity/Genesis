@@ -13,7 +13,7 @@ This guide provides comprehensive instructions for building and running the Apol
 - **npm**: Package manager (comes with Node.js)
 
 ### Python Environment
-- **Python**: 3.11+ (tested with Python 3.12.3)
+- **Python**: 3.11 or higher (tested with Python 3.12.3, Docker uses 3.11-slim)
 - **pip**: Python package manager
 
 ### Docker Environment (Optional)
@@ -246,8 +246,11 @@ python3 --version  # Verify Python >= 3.11
 **Problem**: Build fails with SSL errors
 **Solution**: The Dockerfile includes `--trusted-host` flags for pip installations to handle SSL certificate issues in build environments.
 
-**Problem**: Container keeps restarting
-**Solution**: This is expected behavior. The default command runs once and exits. For persistent services, modify the `CMD` in the Dockerfile or use docker-compose with a long-running command.
+**Problem**: Docker Compose service shows "Restarting" status
+**Solution**: The default container command completes successfully and exits. The docker-compose.yml has `restart: unless-stopped` policy which causes it to restart after exit. This is expected for demonstration purposes. For production use, either:
+- Modify the `CMD` in Dockerfile to run a long-lived process
+- Change the restart policy in docker-compose.yml to `no` or `on-failure`
+- Run with `docker run` for one-time execution instead of docker-compose
 
 ---
 

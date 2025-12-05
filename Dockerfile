@@ -8,12 +8,10 @@ WORKDIR /app
 
 # Copy only necessary files
 COPY core core
-
-# Copy requirements.txt if it exists
-COPY requirements.txt* ./
+COPY requirements.txt ./
 
 # Install minimal runtime dependencies if provided
-# Note: SSL verification issues in build environment - python-dateutil is in standard lib alternatives
+# Note: Using --trusted-host flags to handle SSL certificate verification issues in build environments
 RUN python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org \
  && if [ -f requirements.txt ]; then pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt; fi
 
