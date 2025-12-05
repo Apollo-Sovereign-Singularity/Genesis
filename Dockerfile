@@ -8,11 +8,12 @@ WORKDIR /app
 
 # Copy only necessary files
 COPY core core
-COPY requirements.txt . 2>/dev/null || true
+COPY requirements.txt ./
 
 # Install minimal runtime dependencies if provided
-RUN python -m pip install --upgrade pip \
- && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+# Note: Using --trusted-host flags to handle SSL certificate verification issues in build environments
+RUN python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org \
+ && if [ -f requirements.txt ]; then pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt; fi
 
 # Set environment variables for safe defaults
 ENV PYTHONUNBUFFERED=1 \
