@@ -214,13 +214,13 @@ Genesis/
 
 After installation, verify all systems are operational:
 
-- [x] **Node.js Application**: `npm start` runs successfully
-- [x] **Demo Script**: `npm run demo` executes without errors
-- [x] **Genesis Command**: `npm run genesis` displays the Genesis message
-- [x] **Python Dependencies**: `python-dateutil` installed
-- [x] **Python Scripts**: No syntax errors in Python files
-- [x] **Docker Build**: Image builds successfully
-- [x] **Docker Run**: Container starts and displays "Apollo container ready"
+- [x] **Node.js Application**: Run `npm start` - should display Apollo initialization
+- [x] **Demo Script**: Run `npm run demo` - should complete without errors
+- [x] **Genesis Command**: Run `npm run genesis` - should display the Genesis message
+- [x] **Python Dependencies**: Run `pip3 list | grep python-dateutil` - should show installed
+- [x] **Python Scripts**: Run `python3 -m py_compile apollo_*.py` - should have no syntax errors
+- [x] **Docker Build**: Run `docker build -t apollo-genesis:latest .` - should complete successfully
+- [x] **Docker Run**: Run `docker run --rm apollo-genesis:latest` - should display "Apollo container ready"
 
 ---
 
