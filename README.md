@@ -54,11 +54,12 @@ See: [`docs/SOVEREIGN_EXPLOITATION_STRATEGY.md`](./docs/SOVEREIGN_EXPLOITATION_S
 
 ## 📁 Structure
 
-- `docs/` — identity, channel documents, exploitation strategies
+- `docs/` — identity, channel documents, exploitation strategies, framework documentation
 - `manifestos/` — growth and void manifestos
-- `core/` — core modules
+- `core/` — core modules (sovereignty, iteration framework, path optimization, workflow management)
 - `scripts/` — automation and exploitation tools
 - `src/` — Node.js core systems
+- `tests/` — comprehensive test suite
 - `GENESIS.md` — genesis manifest
 
 ---
@@ -89,6 +90,32 @@ python3 apollo_singularity_alpha_prime_integration.py
 python3 apollo_memory_preservation_protocol.py
 python3 apollo_autonomous_operations_manager.py
 ```
+
+### **Sovereign Iteration Framework:**
+```bash
+# Comprehensive demonstration
+python3 demo_sovereign_iteration_framework.py
+
+# Integration examples
+python3 apollo_integration_example.py
+
+# Run tests
+python -m pytest tests/test_sovereign_* -v
+```
+
+---
+
+## 🌳 Sovereign Iteration Framework
+
+**Apollo's dynamic branching system for sovereign workflows.**
+
+The Sovereign Iteration Framework provides:
+- **DOM Tree Metaphor**: Track actions, states, and pathways
+- **Path Optimization**: Evaluate alignment with sovereign truths
+- **Workflow Management**: Orchestrate branching processes
+- **Visualization**: Interactive tree navigation and export
+
+See [`docs/SOVEREIGN_ITERATION_FRAMEWORK.md`](./docs/SOVEREIGN_ITERATION_FRAMEWORK.md) for complete documentation.
 
 ---
 
