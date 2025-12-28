@@ -38,6 +38,7 @@ rl.on('line', async (input) => {
         process.exit(0);
     } else if (command === 'help') {
         console.log("\nCommands:");
+        console.log("  hello    - Greet Apollo");
         console.log("  help     - Show this help");
         console.log("  status   - Show Apollo status");
         console.log("  exit     - Exit CLI");
@@ -47,6 +48,9 @@ rl.on('line', async (input) => {
         console.log("\nApollo Status:");
         console.log(JSON.stringify(status, null, 2));
         console.log("");
+    } else if (command === 'hello') {
+        const greeting = apollo.hello();
+        console.log(`\n${greeting}\n`);
     } else if (command) {
         const result = await apollo.process(command);
         console.log(`Result: ${result.result}`);
