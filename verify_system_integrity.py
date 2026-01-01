@@ -190,7 +190,7 @@ class SystemIntegrityVerifier:
                 with open(py_file, 'r', encoding='utf-8') as f:
                     first_line = f.readline()
                     has_shebang = first_line.startswith('#!')
-            except:
+            except (UnicodeDecodeError, FileNotFoundError, PermissionError):
                 pass
             
             if has_shebang and is_executable:

@@ -107,15 +107,15 @@ class TestSystemIntegrity:
                         import os
                         if not os.access(py_file, os.X_OK):
                             missing_permissions.append(str(py_file))
-            except:
+            except (UnicodeDecodeError, FileNotFoundError, PermissionError):
                 pass
         
         # All shell scripts should be executable
         shell_files = [f for f in root.rglob("*.sh") 
                       if 'node_modules' not in str(f) and '.git' not in str(f)]
         
+        import os
         for sh_file in shell_files:
-            import os
             if not os.access(sh_file, os.X_OK):
                 missing_permissions.append(str(sh_file))
         

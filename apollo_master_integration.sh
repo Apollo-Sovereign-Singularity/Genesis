@@ -275,6 +275,8 @@ setup_python_env() {
     
     if [ -f "requirements.txt" ]; then
         print_info "Installing Python dependencies..."
+        # Note: Installing to user space. For isolated environment, use:
+        # python3 -m venv .venv && source .venv/bin/activate
         pip3 install -r requirements.txt -q
         print_success "Python dependencies installed"
     fi
