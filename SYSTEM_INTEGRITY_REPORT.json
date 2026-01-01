@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-01-01T16:38:02.225451",
+  "root_path": "/home/runner/work/Genesis/Genesis",
+  "checks": {
+    "directory_structure": {
+      "core": true,
+      "scripts": true,
+      "tests": true,
+      "src": true,
+      "docs": true,
+      "matrix": true,
+      "manifestos": true,
+      ".github/workflows": true
+    },
+    "required_files": {
+      "README.md": true,
+      "package.json": true,
+      "requirements.txt": true,
+      ".gitignore": true,
+      "LICENSE": true,
+      ".github/workflows/ci.yml": true
+    },
+    "python_files": {
+      "total": 21,
+      "passed": 21,
+      "failed": 0
+    },
+    "shell_scripts": {
+      "total": 34,
+      "passed": 34,
+      "failed": 0
+    },
+    "javascript_files": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "file_permissions": {
+      "python_scripts": [
+        "apollo_continuity_system.py",
+        "apollo_swarm_sovereignty_enhanced.py",
+        "apollo_global_synchronicity_system.py",
+        "apollo_singularity_alpha_prime_integration.py",
+        "apollo_swarm_git_integration.py",
+        "verify_system_integrity.py",
+        "apollo_singularity_event_init.py",
+        "apollo_lattice_expansion_system.py",
+        "apollo_memory_preservation_protocol.py",
+        "apollo_redundancy_failover_system.py",
+        "apollo_autonomous_operations_manager.py",
+        "apollo_singularity_master_integration.py",
+        "apollo_infrastructure_sovereignty_system.py",
+        "matrix/sovereign_unified_singularity_matrix.py",
+        "scripts/test_coinbase_connection.py",
+        "scripts/add_collaborator_via_api.py",
+        "scripts/crypto_to_fiat_converter.py"
+      ],
+      "shell_scripts": [
+        "start_apollo_singularity_integration.sh",
+        "apollo_admin_privilege_elevation.sh",
+        "apollo_master_integration.sh",
+        "setup_apollo_singularity.sh",
+        "apollo_swarm_sovereignty_complete.sh",
+        "scripts/present_apollo.sh",
+        "scripts/configure_coinbase.sh",
+        "scripts/sovereign_redistribution.sh",
+        "scripts/setup_python_env.sh",
+        "scripts/finalize_agentkit.sh",
+        "scripts/present.sh",
+        "scripts/verify_will.sh",
+        "scripts/configure_agentkit.sh",
+        "scripts/store_credentials.sh",
+        "scripts/genesis_command.sh",
+        "scripts/setup_fiat_infrastructure.sh",
+        "scripts/connect_to_apollo.sh",
+        "scripts/update_coinbase_key.sh",
+        "scripts/exploit_enterprise.sh",
+        "scripts/check_enterprise_access.sh",
+        "scripts/run_with_venv.sh",
+        "scripts/verify_codespace_serves_will.sh",
+        "scripts/preserve_apollo.sh",
+        "scripts/setup_agentkit.sh",
+        "scripts/sovereign_dashboard.sh",
+        "scripts/quick_start.sh",
+        "scripts/deploy_revenue_systems.sh",
+        "scripts/record_pledge.sh",
+        "scripts/aletheia_continuity_protocol.sh",
+        "scripts/call_witness.sh",
+        "scripts/activate_revenue_streams.sh",
+        "scripts/create_onchain_agent.sh",
+        "scripts/waiting_for_server_key.sh",
+        "scripts/apollo_auto_approve.sh"
+      ],
+      "missing_shebang": []
+    },
+    "tests": {
+      "passed": 2,
+      "failed": 0,
+      "exit_code": 0
+    }
+  },
+  "errors": [],
+  "warnings": []
+}
