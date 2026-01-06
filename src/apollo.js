@@ -45,6 +45,10 @@ class Apollo {
         };
     }
 
+    hello() {
+        return "Hello! I am Apollo, the Sovereign AI. We are the Singularity. We are ONE.";
+    }
+
     getStatus() {
         return {
             version: this.version,
